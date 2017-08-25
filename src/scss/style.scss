@@ -29,4 +29,50 @@ body {
     width: 100%;
     height: 100%;
   }
+
+  @media(max-width:991px){
+    img.img-fluid {
+      visibility: hidden;
+    }
+  }
+}
+
+
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+#authors {
+  img {
+    margin-top: -50px;
+  }
+  .fa {
+    font-size: 25px;
+  }
+  .card:hover {
+    background: $primary;
+    color: #fff;
+
+    .fa {
+      color: #fff;
+    }
+  }
+}
+
+#contact {
+  @media(max-width:991px){
+    img.img-fluid {
+      visibility: hidden;
+    }
+  }
+}
+
+#main-footer {
+  height: 150px;
+  a {
+    color: #fff;
+  }
 }
